@@ -38,12 +38,34 @@ Framework	LangChain + LangGraph
 Frontend	Streamlit
 Memory	InMemorySaver
 Language	Python
-📂 Project Structure
-ai-assistant/
-│
-├── backend.py          # LangGraph workflow + model logic
-├── frontend.py         # Streamlit UI
-├── chatbot.png         # UI Screenshot
-├── requirements.txt
-├── .env
-└── README.md
+
+🖼️ UI Preview
+
+The chatbot interface includes:
+
+Clean chat bubbles
+Typing animation
+Sidebar controls
+🧠 How It Works
+User input is sent via Streamlit UI
+LangGraph processes messages through nodes
+Memory checkpoint maintains conversation history
+Gemini model generates response
+UI streams response dynamically
+🚀 Future Enhancements
+🔍 Web search tool integration
+📄 Chat with PDFs (RAG pipeline)
+🧑‍💻 Code assistant mode
+🌐 Multi-agent workflows
+🎙️ Voice-based interaction
+💼 Why This Project Stands Out
+
+This project demonstrates:
+
+Real-world AI system design
+Clean and modular architecture
+Practical use of LangGraph (rare skill 🔥)
+Strong UI + backend integration
+🤝 Contributing
+
+Feel free to fork, improve, and submit pull requests!
